@@ -1,13 +1,6 @@
 import { decora } from ".";
 import { it, expect, spyOn, mock } from "bun:test";
 
-spyOn(console, "log");
-// let logs: any[] = [];
-// console.log = (...args) => {
-//   logs.push(args[0]);
-//   console.info(...args);
-// };
-
 function peekFn<A extends any[], R>(fn: (...args: A) => R) {
   return (...args: A) => {
     const ret = fn(...args);
@@ -39,6 +32,7 @@ class Test {
 }
 
 it("Decora with peek function", async () => {
+  spyOn(console, "log");
   expect(new Test().add(1, 2)).toBe(3);
   expect(await new Test().addAsync(2, 3)).toBe(5);
   expect(Test.staticAdd(3, 4)).toBe(7);
