@@ -1,5 +1,7 @@
 # Decora.js
 
+Simple High-Order-Function with decorator syntax.
+
 ## Get Started
 
 Enable experimentalDecorators
