@@ -16,4 +16,4 @@ pre-commit:
   parallel: true
   commands:
     intemp:
-      run: bunx intemp
+      run: bunx intemp@latest

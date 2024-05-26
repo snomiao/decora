@@ -12,5 +12,5 @@
     "prepack": "bun test",
     "release": "bunx standard-version && git push --follow-tags origin main && npm publish"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
