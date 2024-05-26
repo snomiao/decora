@@ -11,5 +11,5 @@
   "scripts": {
     "release": "bunx standard-version && git push --follow-tags origin main && npm publish"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
