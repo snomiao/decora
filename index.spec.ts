@@ -6,7 +6,7 @@ function peekFn<A extends any[], R>(fn: (...args: A) => R) {
     const ret = fn(...args);
 
     Promise.resolve(ret).then((ret) =>
-      console.log(`${JSON.stringify(args)} => ${ret}`)
+      console.log(`${JSON.stringify(args)} => ${ret}`),
     );
     return ret;
   };

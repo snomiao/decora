@@ -4,11 +4,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.6](https://github.com/snomiao/decora/compare/v0.0.5...v0.0.6) (2024-06-02)
 
-
 ### Features
 
-* **decora:** as default export ([0300dae](https://github.com/snomiao/decora/commit/0300daef1050cb730500457283563b18d4a0693a))
-* **decora:** as default export ([71de3c5](https://github.com/snomiao/decora/commit/71de3c54839e0ea1dc46af0547e020fddde8acd5))
+- **decora:** as default export ([0300dae](https://github.com/snomiao/decora/commit/0300daef1050cb730500457283563b18d4a0693a))
+- **decora:** as default export ([71de3c5](https://github.com/snomiao/decora/commit/71de3c54839e0ea1dc46af0547e020fddde8acd5))
 
 ### [0.0.5](https://github.com/snomiao/decora/compare/v0.0.4...v0.0.5) (2024-05-26)
 

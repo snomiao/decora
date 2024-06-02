@@ -25,7 +25,7 @@ function peekFn<A extends any[], R>(fn: (...args: A) => R) {
     const ret = fn(...args);
 
     Promise.resolve(ret).then((ret) =>
-      console.log(`${JSON.stringify(args)} => ${ret}`)
+      console.log(`${JSON.stringify(args)} => ${ret}`),
     );
     return ret;
   };
@@ -61,5 +61,4 @@ it("Decora with peek function", async () => {
   expect(console.log).toHaveBeenCalledWith("[3,4] => 7");
   expect(console.log).toHaveBeenCalledWith("[4,5] => 9");
 });
-
 ```

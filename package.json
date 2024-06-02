@@ -2,21 +2,21 @@
   "name": "decora",
   "version": "0.0.6",
   "type": "module",
+  "exports": {
+    "import": "./index.js"
+  },
+  "main": "index.js",
   "module": "index.js",
+  "types": "index.ts",
   "scripts": {
+    "build": "bun build index.ts --outdir=.",
     "prepack": "bun test",
-    "release": "bunx standard-version && git push --follow-tags origin main && npm publish",
-    "build": "bun build index.ts --outdir=."
+    "release": "bunx standard-version && git push --follow-tags origin main && npm publish"
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  },
-  "main": "index.js",
-  "exports": {
-    "import": "./index.js"
-  },
-  "types": "index.ts"
+  }
 }
