@@ -1,6 +1,6 @@
 import { curry } from "rambda";
 
-export const decora = <F, Alter extends (fn: F) => any>(fn: Alter) => {
+export default function decora<F, Alter extends (fn: F) => any>(fn: Alter) {
   return (
     target: any,
     key: PropertyKey,
@@ -8,4 +8,4 @@ export const decora = <F, Alter extends (fn: F) => any>(fn: Alter) => {
   ) => {
     descriptor.value = fn(descriptor.value!);
   };
-};
+}

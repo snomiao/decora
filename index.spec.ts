@@ -1,4 +1,4 @@
-import { decora } from ".";
+import decora from ".";
 import { it, expect, spyOn, mock } from "bun:test";
 
 function peekFn<A extends any[], R>(fn: (...args: A) => R) {
