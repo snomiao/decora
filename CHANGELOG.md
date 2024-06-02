@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/snomiao/decora/compare/v0.0.6...v0.0.7) (2024-06-02)
+
+
+### Bug Fixes
+
+* **jsdoc:** to enable ([5b9ce21](https://github.com/snomiao/decora/commit/5b9ce21f9159d6a7d2a738847c9289d181221593))
+* **jsdoc:** to enable ([3af6fac](https://github.com/snomiao/decora/commit/3af6facd09b414658c08871bd3a9f0017f0d0b3f))
+
 ### [0.0.6](https://github.com/snomiao/decora/compare/v0.0.5...v0.0.6) (2024-06-02)
 
 ### Features
