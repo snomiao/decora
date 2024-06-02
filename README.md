@@ -61,4 +61,5 @@ it("Decora with peek function", async () => {
   expect(console.log).toHaveBeenCalledWith("[3,4] => 7");
   expect(console.log).toHaveBeenCalledWith("[4,5] => 9");
 });
+
 ```
